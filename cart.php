@@ -139,7 +139,7 @@ switch($_GET["action"]) {
                     <?php 
             }
             ?>
-                    <a class="btn" href="products.php">
+                    <a class="btn" href="index.php">
                         < Back To Product Page</a> </div> </div> <footer>
                             <p class="copyright">Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2019
                                 ECart.com. All Right Reserved</p>
