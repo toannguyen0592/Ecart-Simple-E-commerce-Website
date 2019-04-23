@@ -165,7 +165,7 @@
                 </table>
                 
             </div>
-            <a class="btn" href="products.php">CONTINUE SHOPPING</a>
+            <a class="btn" href="index.php">CONTINUE SHOPPING</a>
                 <?php session_destroy();?>
 
         </div>
