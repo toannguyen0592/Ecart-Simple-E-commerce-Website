@@ -115,7 +115,7 @@ foreach ($_SESSION["cart_item"] as $item) {
                                 </td>
                                 <td style="text-align:center;"><a
                                         href="products.php?action=remove&code=<?php echo $item["code"]; ?>"
-                                        class="btnRemoveAction"><img src="icon-delete.png" alt="Remove Item" /></a></td>
+                                        class="btnRemoveAction"><img src="assets/icon-delete.png" alt="Remove Item" /></a></td>
                             </tr>
                             <?php
 $total_quantity += $item["quantity"];
@@ -149,8 +149,6 @@ $total_quantity += $item["quantity"];
                 </div>
             </div>
 
-
-
             <div id="product-grid">
                 <div class="txt-heading">
                     <h5>PRODUCTS</h5>
@@ -181,16 +179,7 @@ $total_quantity += $item["quantity"];
                                         </a>
                                     </h4>
                                 </div>
-                                <!-- <div id=" collapseOne" class="panel-collapse collapse in" role="tabpanel"
-                                        aria-labelledby="headingOne">
-                                        <div class="panel-body">
-                                            <ul class="nav">
-                                                <li><a href="#">item 1</a></li>
-                                                <li><a href="#">item 2</a></li>
-                                                <li><a href="#">item 3</a></li>
-                                            </ul>
-                                        </div>
-                            </div> -->
+
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="headingOne">
@@ -1002,9 +991,7 @@ if (!empty($product_array)) {
 
 
                 </div>
-
-
-            </div>
+           </div>
         </div>
         </div>
 
@@ -1050,24 +1037,6 @@ if (!empty($product_array)) {
             document.getElementById(category).style.display = "grid";
             evt.currentTarget.className += " active";
         }
-
-        // Get the element with id="defaultOpen" and click on it
-        // document.getElementById("defaultOpen").click();
-
-        // function filter(category) {
-        //     var category = document.querySelector(category);
-        //     if (category.style.display === "none") {
-        //         category.style.display = "grid";
-        //     } else {
-        //         category.style.display = "none";
-        //     }
-        // }
-        // $(".cart-icon").on("mouseenter", function() {
-        //         $(".cart-preview").show();
-        //     })
-        //     .on("mouseleave", function() {
-        //         $(".cart-preview").hide();
-        //     });
         </script>
 
     </body>
