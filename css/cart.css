@@ -1,0 +1,208 @@
+html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            position: relative;
+        }
+
+        body,
+        h5 {
+            font-size: 1.5em;
+        }
+
+        .title-container {
+            width: 100%;
+            background: #f15a29;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 40px;
+        }
+
+        .title-container .page-title {
+            margin-bottom: 0;
+            color: #fff;
+            font-size: 25px;
+            font-weight: 600;
+            opacity: 0.25;
+            margin-left: 40px;
+        }
+
+        .content-wrapper {
+            min-height: 100vh;
+            /* will cover the 100% of viewport */
+            overflow: hidden;
+            display: block;
+            position: relative;
+            padding-bottom: 100px;
+            /* height of your footer */
+        }
+
+        .txt-heading {
+            border-bottom: 1px solid #211a1a;
+        }
+
+        .txt-heading h5 {
+            color: #f15a29;
+            font-weight: 600;
+        }
+
+        .cart-item-image {
+            padding: 0;
+        }
+
+        .no-records {
+            min-height: 300px;
+            background: #eee;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .no-records i {
+            opacity: .5;
+            margin-bottom: 25px;
+        }
+
+        .no-records p {
+            font-size: 20px;
+            letter-spacing: 5px;
+            opacity: .5;
+        }
+
+        .products-holder {
+            margin: 50px auto;
+            width: 100%;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 40px;
+            justify-content: center;
+        }
+
+        .product-container {
+            width: 100%;
+            height: auto;
+        }
+
+        .product-item {
+            width: 100%;
+            height: auto;
+            margin: 0;
+            border: 1px solid #aaa;
+        }
+
+        .product-image {
+            width: 100%;
+            height: auto;
+            background: #ddd;
+        }
+
+        .product-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product-tile-footer {
+            display: flex;
+            flex-direction: column;
+            margin: 25px;
+            padding: 0;
+        }
+
+        .product-title {
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .product-price {
+            margin-bottom: 20px;
+        }
+
+        .cart-action {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .cart-action input {
+            width: 100%;
+        }
+
+        .btnAddAction {
+            margin-top: 10px;
+            margin-left: 0;
+            background: #f15a29;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+
+        .btnAddAction:hover {
+            background: red;
+        }
+
+        .tbl-cart {
+            margin: 40px 0;
+            width: 100%;
+        }
+
+        .tbl-cart tr {
+            height: 50px;
+            background: #eee;
+            min-width: 100%;
+        }
+
+        .tbl-cart tr:not(:first-child) {
+            border-bottom: 1px solid #aaa;
+        }
+
+        .tbl-cart tr:first-child {
+            background: #555;
+            color: #fff;
+        }
+
+        .tbl-cart th,
+        td {
+            padding: 0 20px;
+        }
+
+        .btn {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #fff;
+            padding: 5px 20px;
+            border-radius: 3px;
+            background: #f15a29;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 1;
+            transition: 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #fff;
+            border: 2px solid #f15a29;
+            color: #f15a29;
+        }
+
+        footer {
+            height: 100px;
+            text-align: center;
+            color: #aaa;
+            background: #555;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }

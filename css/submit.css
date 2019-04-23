@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+.title-container {
+    background: #f15a29;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.page-title {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    opacity: 0.25;
+    margin: 0;
+}
+
+.order-summary {
+    padding: 50px 150px;
+}
+
+.heading {
+    margin-bottom: 50px;
+}
+
+.order-summary h3 {
+    font-weight: 800;
+    color: #f15a29;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.order-summary h4 {
+    text-transform: uppercase;
+    color: #211a1a;
+}
+
+.order-summary h5 {
+    color: #f15a29;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f15a29;
+    margin-bottom: 20px;
+}
+
+table.order-detail td, table.order-detail th { 
+    padding-bottom: 25px;
+}
+
+table.order-detail th {
+    padding-right: 25px;
+}
+
+.cart-container {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #211a1a;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.cart th {
+    padding-bottom: 20px;
+}
+
+.cart-item td {
+    padding-bottom: 20px;
+}
+
+.total-value td:not(:first-child) {
+    text-align: right;
+}
+
+.total-field {
+    width: 50%;
+    margin: 25px 0;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.total-field * {
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin: 0 auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    background: #f15a29;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #fff;
+    border: 2px solid #f15a29;
+    color: #f15a29;
+}
+
+footer {
+    height: 100px;
+    text-align: center;
+    color: #aaa;
+    background: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    margin: 0;
+}
